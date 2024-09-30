@@ -1,7 +1,10 @@
-# Scrollbars inside a container with rounded corners
+# scrollbar-inside-rounded-corners
 
 ## Challenge
 
-I have created a simple book list with rounded corners. But the scrollbar goes right through the rounded corners. How can I fix this?
+On the `main` branch, I have created a simple book list with rounded corners. However, the scrollbar
+extends through the rounded corners. How would you fix this?
 
 ## Solution
+
+You can find my solution on the `solution` branch.
