@@ -7,4 +7,5 @@ extends through the rounded corners. How would you fix this?
 
 ## Solution
 
-You can find my solution on the `solution` branch.
+Keep the list height-constrained but add a wrapper. Move the border to the wrapper and set
+`overflow: hidden`. Then let the child list scroll.

@@ -17,27 +17,35 @@
 	];
 </script>
 
-<ul>
-	{#each books as book}
-		<li>
-			<span class="title">{book.title}</span>
-			<span class="author">by {book.author}</span>
-		</li>
-	{/each}
-</ul>
+<div class="wrapper">
+	<ul>
+		{#each books as book}
+			<li>
+				<span class="title">{book.title}</span>
+				<span class="author">by {book.author}</span>
+			</li>
+		{/each}
+	</ul>
+</div>
 
 <style>
+	.wrapper {
+		width: fit-content;
+
+		border: 2px solid black;
+		border-radius: 24px;
+
+		overflow: hidden;
+	}
+
 	ul {
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
 
-		width: fit-content;
 		max-height: 300px;
 		margin: 0;
 		padding: 1rem;
-		border: 2px solid black;
-		border-radius: 24px;
 
 		overflow-y: auto;
 		scrollbar-color: black lightgray;
