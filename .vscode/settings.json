@@ -15,11 +15,11 @@
 	// "editor.lineHeight": 22,
 	// "editor.lineNumbers": "off",
 	// "editor.quickSuggestions": {
-	// 	"other": false,
-	// 	"comments": false,
-	// 	"strings": false
+	// 	"other": "off",
+	// 	"comments": "off",
+	// 	"strings": "off"
 	// },
-	// "editor.quickSuggestionsDelay": 1500,
+	// "editor.suggestOnTriggerCharacters": false,
 
 	// "workbench.statusBar.visible": false
 }
